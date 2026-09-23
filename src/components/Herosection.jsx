@@ -59,7 +59,7 @@ const Herosection = ({ darkMode }) => {
             items-center justify-between
             gap-10 px-4 py-12
             sm:px-8
-            lg:mt-14 lg:flex-row lg:gap-12
+            lg:mt-14 lg:flex-row 
             lg:px-20 lg:py-14 mt-14
           "
         >
