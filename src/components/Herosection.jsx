@@ -69,7 +69,7 @@ const Herosection = ({ darkMode }) => {
             className="
               mb-12 flex w-full flex-col
               items-center text-center
-              lg:mb-0 lg:w-[36%]
+              lg:mb-0 lg:w-[48%]
               lg:items-start lg:text-left
             "
           >
