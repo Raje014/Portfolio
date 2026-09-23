@@ -1,4 +1,4 @@
-import Resume from "../assets/resume.pdf";
+import Resume from "../assets/Resume.pdf";
 import Profile from "../assets/Profile.png";
 import Hi from "../assets/Hi.png";
 
