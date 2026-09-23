@@ -57,11 +57,11 @@ const Herosection = ({ darkMode }) => {
           className="
             container mx-auto flex flex-col
             items-center justify-between
-            gap-10 px-4
-            pt-20 pb-12
-            sm:px-8 sm:pt-24
-            lg:flex-row lg:gap-10
-            lg:px-14 lg:pt-28 lg:pb-14"
+            gap-10 px-4 py-12
+            sm:px-8
+            lg:mt-14 lg:flex-row lg:gap-10
+            lg:px-14 lg:py-14 mt-14
+          "
         >
 
           {/* ================= LEFT SIDE ================= */}
@@ -243,16 +243,16 @@ const Herosection = ({ darkMode }) => {
           {/* ================= RIGHT SIDE ================= */}
           <div
             className="
-              mt-8 flex w-full
+              mt-8 flex w-full max-w-md
               justify-center
-              lg:mt-0 lg:w-[48%]
-              lg:max-w-xl
+              lg:mt-0 lg:w-[40%]
+              lg:max-w-lg
             "
             data-aos="fade-left"
             data-aos-delay="400"
           >
 
-            <div className="relative w-4/5 sm:w-4/5 lg:w-full">
+            <div className="relative w-4/5 sm:w-3/4 lg:w-full">
 
               {/* PROFILE IMAGE */}
               <div className="relative">
