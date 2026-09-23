@@ -1,4 +1,4 @@
-import Profile from '../assets/Profile.png'
+import SkillImg from '../assets/SkillImg.png'
 
 const Aboutsection = ({ darkMode }) => {
   return (
@@ -24,7 +24,7 @@ const Aboutsection = ({ darkMode }) => {
               data-aos="zoom-in"
               data-aos-delay="600">
             </div>
-            <img src={Profile} alt="About Image"
+            <img src={SkillImg} alt="About Image"
             className='absolute insert-0 w-full h-full
             object-cover z-10 transition-all duration-300' 
             data-aos='zoom-in'
@@ -46,7 +46,10 @@ const Aboutsection = ({ darkMode }) => {
                 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}
                 data-aos='fade-up'
                 data-aos-delay='500'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem officiis rem fuga delectus sequi nemo debitis labore. Cum, eos.
+                I’m a Computer Science Engineering graduate and Software Developer with a strong interest in building responsive web applications, 
+                intelligent systems, and practical technology solutions. I enjoy working across the frontend and backend, using technologies such as 
+                Python, Django, React, SQL, and AI. I’m a creative, curious, and continuous learner who enjoys exploring new technologies and improving my 
+                development skills.
             </p>
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8">
                 <div className="text-center" data-aos='zoom-in' data-aos-delay='600'>
@@ -64,10 +67,10 @@ const Aboutsection = ({ darkMode }) => {
                     </div>
                 </div>
                 <div className="text-center" data-aos='zoom-in' data-aos-delay='600'>
-                    <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-500">5+</div>
+                    <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-500">10+</div>
                     <div className={`text-xs sm:text-sm lg:text-base
                         ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-                            Projects
+                            Technologies
                     </div>
                 </div>
             </div>

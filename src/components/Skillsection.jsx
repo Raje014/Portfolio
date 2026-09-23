@@ -5,18 +5,26 @@ import Python from '../assets/Python.png'
 
 const Skillsection = ({ darkMode }) => {
 
-    const skills = [
-        { name: 'Python', icon: Python, level: 90, color: 'from-orange-500 to-amber-500' },
-        { name: 'HTML', icon: Html, level: 90, color: 'from-orange-500 to-red-500' },
-        { name: 'CSS', icon: Css, level: 85, color: 'from-blue-500 to-cyan-500' },
-        { name: 'JavaScript', icon: Js, level: 80, color: 'from-yellow-400 to-orange-500' },
-        { name: 'Python', icon: Python, level: 90, color: 'from-orange-500 to-amber-500' },
-        { name: 'HTML', icon: Html, level: 90, color: 'from-orange-500 to-red-500' },
-        { name: 'CSS', icon: Css, level: 85, color: 'from-blue-500 to-cyan-500' },
-        { name: 'JavaScript', icon: Js, level: 80, color: 'from-yellow-400 to-orange-500' },
-        { name: 'CSS', icon: Css, level: 85, color: 'from-blue-500 to-cyan-500' },
-        { name: 'JavaScript', icon: Js, level: 80, color: 'from-yellow-400 to-orange-500' }
-    ]
+const skills = [
+    { name: 'Python', icon: Python, level: 95, color: 'from-orange-500 to-red-500' },
+    { name: 'HTML', icon: Html, level: 95, color: 'from-orange-500 to-red-500' },
+    { name: 'CSS', icon: Css, level: 90, color: 'from-blue-500 to-cyan-500' },
+    { name: 'Bootstrap', icon: Js, level: 95, color: 'from-orange-500 to-red-500' },
+    { name: 'JavaScript', icon: Js, level: 80, color: 'from-green-500 to-emerald-500' },
+    { name: 'React', icon: Python, level: 80, color: 'from-green-500 to-emerald-500' },
+    { name: 'Ionic Angular', icon: Html, level: 75, color: 'from-purple-500 to-pink-500' },
+    { name: 'Django', icon: Css, level: 90, color: 'from-blue-500 to-cyan-500' },
+    { name: 'NumPy', icon: Js, level: 85, color: 'from-yellow-400 to-orange-500' },
+    { name: 'Pandas', icon: Css, level: 85, color: 'from-yellow-400 to-orange-500' },
+    { name: 'Matplotlib', icon: Js, level: 85, color: 'from-yellow-400 to-orange-500' },
+    { name: 'AI', icon: Css, level: 80, color: 'from-green-500 to-emerald-500' },
+    { name: 'n8n Automation', icon: Js, level: 75, color: 'from-purple-500 to-pink-500' },
+    { name: 'MySQL', icon: Css, level: 95, color: 'from-orange-500 to-red-500' },
+    { name: 'PostgreSQL', icon: Js, level: 70, color: 'from-indigo-500 to-violet-500' },
+    { name: 'LangChain', icon: Css, level: 75, color: 'from-purple-500 to-pink-500' },
+    { name: 'Git/GitHub', icon: Css, level: 90, color: 'from-blue-500 to-cyan-500' },
+    { name: 'Agile Methodology', icon: Js, level: 90, color: 'from-blue-500 to-cyan-500' }
+];
 
     return (
         <section
